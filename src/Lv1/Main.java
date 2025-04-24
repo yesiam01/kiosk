@@ -13,7 +13,7 @@ public class Main {
             System.out.println("3. Cheeseburger  | W 6.9 | 포테이토 번과 비프패티, 치즈가 토핑된 치즈버거");
             System.out.println("4. Hamburger     | W 5.4 | 비프패티를 기반으로 야채가 들어간 기본버거");
             System.out.println("종료      | 종료");
-            System.out.println("<- // 0을 입력");
+            System.out.print("0을 입력시 종료: ");
 
             int num = scanner.nextInt();
 
