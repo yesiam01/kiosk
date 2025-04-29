@@ -1,10 +1,10 @@
-package Lv3;
+package Lv4;
 
-import java.util.List;
 import java.util.Scanner;
+import java.util.List;
 
 public class Kiosk {
-    public List<MenuItem> menuItems;
+    List<MenuItem> menuItems;
     Scanner scanner = new Scanner(System.in);
 
     public Kiosk(List<MenuItem> menuItems) {
@@ -12,11 +12,10 @@ public class Kiosk {
     }
 
     public void start() {
-
         while (true) {
             for (int i = 0; i < menuItems.size(); i++) {
                 MenuItem item = menuItems.get(i);
-                System.out.println((i + 1) + ". " + item.name + " | W " + item.price + " | " + item.explain );
+                System.out.println((i + 1) + ". " + item.name + " | W " + item.price + " | " + item.explain);
             }
 
             System.out.println("메뉴 번호를 선택하세요 ( 0입력시 종료) : ");
