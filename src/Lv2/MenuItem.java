@@ -6,11 +6,16 @@ public class MenuItem {
     public double price;
     public String explain;
 
+    public MenuItem() {
+    }
+
     public MenuItem(String name, double price, String explain) {
         this.name = name;
         this.price = price;
         this.explain = explain;
     }
+
+
 }
 
 

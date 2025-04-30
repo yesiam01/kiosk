@@ -11,6 +11,9 @@ public class MenuItem {
         this.explain = explain;
     }
 
+    public MenuItem(){
+    }
+
     public String getName() {
         return name;
     }
